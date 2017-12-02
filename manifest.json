@@ -3,16 +3,19 @@
 	"name": "YHack-2017",
 	"version": "1.0",
 
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
 
-	"default_locale": "en",
 	"description": "Reading Fitness Extension",
 
 	"browser_action": {
 		"default_popup": "popup.html"
 	},
 
-	"background": {
-    	"persistent": false
-    }
+	"permissions": [
+		"identity"
+	]
 
 }
